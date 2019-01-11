@@ -1,0 +1,149 @@
+
+
+header {
+  padding: 154px 0 100px;
+}
+
+#mainNav, h2  {
+	font-family: 'Dancing Script', cursive;
+}
+
+#mainNav li {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+#mainNav li a {
+	color: #505160;
+	font-weight: bold;
+}
+
+#mainNav .navbar-brand {
+    color: #F05F40;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #F05F40;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #F05F40 !important;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+  background-color: transparent;
+  
+}
+  
+section {
+  padding: 150px 0;
+}
+
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/juice.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #FFF;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+header.masthead p {
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+
+  header.masthead p {
+   font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+
+  header.masthead p {
+  font-size: 2rem;
+  }
+
+}
+
+#section-header {
+	margin-bottom: 2rem;
+}
+
+.flavours {
+	margin-bottom:50px;
+	text-align:center
+}
+
+.flavours img {
+	width:225px;
+	height:225px;
+	border:7px solid #fff
+}
+
+.flavours h4 {
+	margin-top:25px;
+	margin-bottom:0;
+	text-transform:none
+}
+
+.flavours p {
+	margin-top:0
+}
+
+
+
+
